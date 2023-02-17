@@ -1,0 +1,275 @@
+.cover{
+  background-image: url(https://wallpapers.com/images/featured/l4bjrhl8d4u3ddd7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.images img{
+  width: 450px;
+  border-radius: 5px;
+}
+.images{
+  position: relative;
+  flex: 1;
+  max-width: 460px;
+  height: auto;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+.content{
+  position: relative;
+  flex: 1;
+  color: white;
+  max-width: 460px;
+  height: auto;
+  margin-top: 95px;
+}
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.other{
+  margin: 15px;
+  flex-wrap: wrap;
+}
+.pic{
+  position: relative;
+  flex: 1;
+  max-width: 450px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.pic img{
+  width: 120px;
+  height: 15vh;
+  margin: 10px;
+}
+.pictures{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.pic-one{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+}
+.pic-two{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+}
+.pic-three{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+}
+.me{
+  position: relative;
+  flex: 1;
+  max-width: 460px;
+  height: auto;
+  margin: 10px;
+  margin-top: 50px;
+}
+p{
+  padding: 10px;
+}
+.mpi{
+  padding: 20px;
+  text-align: center;
+}
+.interestandhobbies{
+  height: auto;
+  background-color: #757575;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.interest{
+  position: relative;
+  flex: 1;
+  max-width: 500px;
+  height: auto;
+  margin: 10px;
+  color: white;
+  margin-top: 20px;
+  /* border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+.myinterests{
+  display: flex;
+  justify-content: space-between;
+}
+.webdev{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+}
+.webdev a img{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100px;
+}
+.reading{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+}
+.reading a img{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100px;
+}
+.photography{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+}
+.photography a img{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100px;
+}
+
+.hobbies{
+  position: relative;
+  flex: 1;
+  max-width: 500px;
+  height: auto;
+  margin: 10px;
+  color: white;
+  margin-top: 20px;
+  /* border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+.myhobbies{
+  display: flex;
+  justify-content: space-between;
+}
+.singing{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+  /* border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+.singing a img{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100px;
+}
+.drawing{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+  /* border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+.drawing a img{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100px;
+}
+.reading{
+  flex: 1;
+  max-width: 150px;
+  margin-top: 20px;
+  /* border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+.reading a img{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 100px;
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+.contacts{
+  background-color: #ffffff;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.contacts p{
+  text-align: center;
+}
+.contacts a{
+  color: black;
+  text-decoration: none;
+  list-style: none;
+  margin: 10px;
+  display: inline-block;
+}
+.contacts a:hover{
+  color: #987554;
+}
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #664229;
+  color: white;
+}
+.fa-facebook {
+  background: #3d251e;
+  color: white;
+}
+
+.fa-twitter {
+  background: #8b6c5c;
+  color: white;
+}
+.fa-instagram {
+  background: #4c3228;
+  color: white;
+}
+
+
+@media (max-width: 800px) {
+    .images{
+        flex: 80%;
+        max-width: 500px;
+    }
+    .content{
+        flex: 100%;
+        max-width: 600px;
+    }
+    .pic{
+        flex: 100%;
+        max-width: 600px;
+    }
+     .me{
+        flex: 100%;
+        max-width: 600px;
+    }
+    .con-02{
+        flex: 100%;
+        max-width: 600px;
+    }
+    .con-03{
+        flex: 100%;
+        max-width: 600px;
+    }
+}
